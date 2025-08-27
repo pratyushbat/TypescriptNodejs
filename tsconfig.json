@@ -8,7 +8,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
-    "target": "ES2016",
+    "target": "ES2021",
     // "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -40,6 +40,9 @@
     // "noUncheckedSideEffectImports": true,
     // "moduleDetection": "force",
     // "skipLibCheck": true,
+
+    "esModuleInterop": true,
+    "noImplicitAny": false
   }
   ,
   "include": ["src/**/*.ts"],
